@@ -1,6 +1,7 @@
 # Fake Login dan Register dengan Javascript
 
-Website ini adalah contoh sederhana dari penggunaan Javascript untuk membuat fitur login dan register palsu. Website ini tidak bertujuan untuk digunakan secara sebenarnya, namun hanya sebagai demonstrasi bagaimana cara kerja dasar dari fitur login dan register pada sebuah website.
+Website ini adalah contoh sederhana dari penggunaan Javascript untuk membuat fitur login dan register palsu. Website ini tidak bertujuan untuk digunakan secara sebenarnya, namun hanya sebagai demonstrasi bagaimana cara kerja dasar dari fitur login dan register pada sebuah website. Untuk mencobanya silahkan klik link ini
+https://ramadani-coding.github.io/Fake-Login/
 
 ## Cara Penggunaan
 
@@ -22,5 +23,7 @@ Website ini dibuat menggunakan teknologi berikut:
 ## Catatan Penting
 
 Website ini hanya bersifat demonstrasi dan tidak diharapkan digunakan secara sebenarnya. Kami tidak bertanggung jawab atas segala konsekuensi negatif yang mungkin timbul akibat penggunaan Website ini dengan cara yang salah atau tidak bertanggung jawab.
+
+
 
 
