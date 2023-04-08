@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-navbar {
+  height: 10vh;
+  background-color: salmon;
+}
+
+.img-nav {
+  width: 30%;
+}
+
+.nav-a {
+  font-family: sans-serif;
+  font-size: 8px;
+  padding: 7px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-a:hover {
+  background-color: brown;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+}
+
+.li-nav {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-items: center;
+  list-style-type: none;
+}
+
+.container-konten {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.konten-a {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  margin: 40px;
+  background-color: white;
+  height: auto;
+  border-radius: 20px;
+  text-decoration: none;
+  /* box-shadow: 16px 11px 16px 8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 16px 11px 16px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 16px 11px 16px 8px rgba(0, 0, 0, 0.75); */
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.konten-video {
+  margin: 35px;
+  padding: 3px;
+  width: 440px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.audio {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: brown;
+  border-radius: 18px;
+}
+
+.container-footer {
+  height: 5.2vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 16px;
+  background-color: salmon;
+}
+
+.footer-h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.footer-h1 span {
+  color: red;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: white;
+}
+
+    .btn-logout {
+      border: none;
+      background: none;
+      width: 100%;
+      border-radius: 10px;
+      background-color: brown;
+      margin-left: 550%;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .btn-logout {
+      width: 10%;
+      height: 30px;
+      margin-left: 12px;
+      padding-top: 7px;
+      border: none;
+      background: none;
+      border-radius: 5px;
+      background-color: brown;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    .btn-logout:hover {
+      background-color: tomato;
+    }
+
+    .btn-hapus {
+      width: 10%;
+      height: 30px;
+      margin-left: 12px;
+      border: none;
+      background: none;
+      border-radius: 5px;
+      background-color: brown;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    .btn-hapus:hover {
+      background-color: salmon;
+    }
+
+    .btn-div {
+      display: flex;
+      justify-content: end;
+      margin-right: 12px;
+    }
+

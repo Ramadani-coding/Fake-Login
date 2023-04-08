@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Praktikum</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-navbar">
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <img src="images/user_keribo.png" alt="user" class="img-nav" />
+          <a href="https://github.com/Ramadani-coding" target="_blank" class="nav-a">
+            <h1 class="h1-nav">ADMIN</h1>
+          </a>
+        </li>
+        <div class="btn-div">
+          <button class="btn-logout" onclick="logout()">Logout</button>
+        </div>
+      </ul>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Konten Start -->
+    <div class="container-konten">
+      <a href="#" class="konten-a">
+        <video controls class="konten-video">
+          <source src="images/karya1.mp4" type="video/mp4" 4 class="video" />
+        </video>
+        <div class="audio">
+          <audio controls>
+            <source src="images/Song.mp3" type="audio/mp3" class="konten-audio" />
+          </audio>
+        </div>
+      </a>
+    </div>
+    <!-- Konten End -->
+
+    <!-- Footer Start -->
+    <div class="container-footer">
+      <h1 class="footer-h1">Dibuat dengan <span>❤</span> oleh <a href="https://github.com/Ramadani-coding" target="_blank" class="footer-a"> Rama </a></h1>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Script JS -->
+    <script>
+      function logout() {
+        window.location.href = "index.html";
+      }
+    </script>
+  </body>
+</html>

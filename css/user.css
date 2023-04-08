@@ -1,0 +1,21 @@
+
+    .container-konten {
+      box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+      height: 69vh;
+    }
+
+    .btn {
+      margin-top: 250px;
+      box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+    }
+
+    .container-footer h1 {
+      padding-top: 5px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .container-footer {
+      height: 7.8vh;
+    }
+  

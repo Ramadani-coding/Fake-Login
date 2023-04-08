@@ -1,0 +1,97 @@
+  * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      font-family: sans-serif;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555;
+      background: #ecf0f3;
+    }
+
+    .div-register {
+      width: 230px;
+      height: 400px;
+      padding: 35px 35px 35px 35px;
+      border-radius: 40px;
+      background-color: #ecf0f3;
+      box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .div-h1 {
+      font-size: 20px;
+      letter-spacing: 3px;
+      text-align: center;
+      padding-top: 25px;
+    }
+
+    .div-form {
+      width: 100%;
+      padding: 40px 5px 5px 5px;
+    }
+
+    .div-form input {
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 15px;
+      color: #555;
+      padding: 3px 5px 15px 45px;
+    }
+
+    .username,
+    .password {
+      margin-bottom: 15px;
+      border-radius: 25px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    }
+
+    .div-form svg {
+      height: 18px;
+      margin-left: 17px;
+      margin-bottom: -25px;
+    }
+
+    .btn-register {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+      background-color: tomato;
+      width: 100%;
+      height: 50px;
+      border-radius: 30px;
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 10px;
+      box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+      transition: 0.5s ease-in-out;
+    }
+
+    .btn-register:hover {
+      background-color: salmon;
+    }
+
+    .link-a {
+      text-decoration: none;
+      color: brown;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      font-size: 14px;
+      padding-top: 14px;
+    }
+  
